@@ -1,6 +1,6 @@
-ru/netology/javaqa/Book.class
-ru/netology/javaqa/ProductRepository.class
-ru/netology/javaqa/ProductManager.class
-ru/netology/javaqa/Smartphone.class
-ru/netology/javaqa/Product.class
-ru/netology/javaqa/Main.class
+domain/Smartphone.class
+domain/Book.class
+ru/netology/javaqa/javaqamvn/repository/ProductRepository.class
+ru/netology/javaqa/javaqamvn/repository/ProductManager.class
+domain/Product.class
+domain/Main.class

@@ -1,4 +1,4 @@
-package ru.netology.javaqa;
+package domain;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,8 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.netology.javaqa.Product;
-package ru.netology.javaqa.javaqamvn.repository;
+import domain.Product;
+import ru.netology.javaqa.javaqamvn.repository.ProductRepository;
+
 
 public class ProductRepositoryTest {
     Product item1 = new Product(1, "книга", 100);
@@ -50,5 +51,5 @@ public class ProductRepositoryTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-    }
+}
 

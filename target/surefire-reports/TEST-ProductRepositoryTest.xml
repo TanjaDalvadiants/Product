@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ProductRepositoryTest" time="0.071" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ProductRepositoryTest" time="0.065" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tatianadalvadianc/Downloads/Product/target/surefire/surefirebooter6346405620339745241.jar /Users/tatianadalvadianc/Downloads/Product/target/surefire 2023-03-11T15-51-02_619-jvmRun1 surefire16933294428872439890tmp surefire_011092023280584127826tmp"/>
+    <property name="sun.java.command" value="/Users/tatianadalvadianc/Downloads/Product/target/surefire/surefirebooter8115698969627050402.jar /Users/tatianadalvadianc/Downloads/Product/target/surefire 2023-03-11T16-21-00_848-jvmRun1 surefire10503536287619698925tmp surefire_014456761730087540455tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/tatianadalvadianc/Downloads/Product/target/test-classes:/Users/tatianadalvadianc/Downloads/Product/target/classes:/Users/tatianadalvadianc/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/tatianadalvadianc/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/tatianadalvadianc/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/tatianadalvadianc/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tatianadalvadianc/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/tatianadalvadianc/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/tatianadalvadianc/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/tatianadalvadianc/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/tatianadalvadianc/Downloads/Product/target/surefire/surefirebooter6346405620339745241.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tatianadalvadianc/Downloads/Product/target/surefire/surefirebooter8115698969627050402.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.17+8"/>
@@ -62,7 +62,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="ShouldRemoveById" classname="ProductRepositoryTest" time="0.05"/>
+  <testcase name="ShouldRemoveById" classname="ProductRepositoryTest" time="0.051"/>
   <testcase name="ShouldFindAll" classname="ProductRepositoryTest" time="0.001"/>
-  <testcase name="ShouldSave" classname="ProductRepositoryTest" time="0.001"/>
+  <testcase name="ShouldSave" classname="ProductRepositoryTest" time="0"/>
 </testsuite>

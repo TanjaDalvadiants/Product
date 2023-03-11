@@ -1,4 +1,6 @@
-package ru.netology.javaqa;
+package ru.netology.javaqa.javaqamvn.repository;
+
+import domain.Product;
 
 public class ProductRepository {
 
@@ -37,6 +39,7 @@ public class ProductRepository {
         return items;
 
     }
+
     public Product[] findAll() {
         return items;
     }

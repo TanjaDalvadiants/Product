@@ -1,4 +1,4 @@
-package ru.netology.javaqa;
+package domain;
 
 public class Book extends Product {
     private String author;

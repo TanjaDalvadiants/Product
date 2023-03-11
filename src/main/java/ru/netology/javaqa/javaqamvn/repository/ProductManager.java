@@ -1,4 +1,6 @@
-package ru.netology.javaqa;
+package ru.netology.javaqa.javaqamvn.repository;
+
+import domain.Product;
 
 public class ProductManager {
     private ProductRepository repo;
@@ -6,7 +8,6 @@ public class ProductManager {
     public ProductManager(ProductRepository repository) {
         this.repo = repository;
     }
-
 
 
     public void add(Product items) {
@@ -27,8 +28,8 @@ public class ProductManager {
                     tmp[i] = result[i];
                 }
 
-                    tmp[tmp.length - 1] = product;
-                    result = tmp;
+                tmp[tmp.length - 1] = product;
+                result = tmp;
             }
         }
         return result;

@@ -1,6 +1,6 @@
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/ProductManager.java
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/ProductRepository.java
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/Main.java
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/Book.java
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/Product.java
-/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/Smartphone.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/domain/Book.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/domain/Product.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/javaqamvn/repository/ProductManager.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/domain/Main.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/ru/netology/javaqa/javaqamvn/repository/ProductRepository.java
+/Users/tatianadalvadianc/Downloads/Product/src/main/java/domain/Smartphone.java

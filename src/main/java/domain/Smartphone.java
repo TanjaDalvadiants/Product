@@ -1,8 +1,9 @@
-package ru.netology.javaqa;
+package domain;
 
 
 public class Smartphone extends Product {
     private String model;
+
     public Smartphone(int id, String name, int price) {
         super(id, name, price);
         this.model = getModel();
@@ -15,7 +16,6 @@ public class Smartphone extends Product {
     public void setModel(String model) {
         this.model = model;
     }
-
 
 
 }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ProductRepository.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">javaqamvn</a> &gt; <a href="index.source.html" class="el_package">ru.netology.javaqa.javaqamvn.repository</a> &gt; <span class="el_source">ProductRepository.java</span></div><h1>ProductRepository.java</h1><pre class="source lang-java linenums">package ru.netology.javaqa.javaqamvn.repository;
+
+import domain.Product;
+
+<span class="fc" id="L5">public class ProductRepository {</span>
+
+
+<span class="fc" id="L8">    private Product[] items = new Product[0];</span>
+
+    public void save(Product item) {
+
+
+<span class="fc" id="L13">        Product[] tmp = new Product[items.length + 1];</span>
+
+
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        for (int i = 0; i &lt; items.length; i = i + 1) {</span>
+<span class="fc" id="L17">            tmp[i] = items[i];</span>
+        }
+<span class="fc" id="L19">        tmp[tmp.length - 1] = item;</span>
+<span class="fc" id="L20">        items = tmp;</span>
+
+<span class="fc" id="L22">    }</span>
+
+    public void removeById(int id) {
+<span class="fc" id="L25">        Product[] tmp = new Product[items.length - 1];</span>
+<span class="fc" id="L26">        int copyToIndex = 0;</span>
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        for (Product item : items) {</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">            if (item.getId() != id) {</span>
+<span class="fc" id="L29">                tmp[copyToIndex] = item;</span>
+<span class="fc" id="L30">                copyToIndex++;</span>
+
+            }
+        }
+<span class="fc" id="L34">        items = tmp;</span>
+<span class="fc" id="L35">    }</span>
+
+
+    public Product[] getItems() {
+<span class="fc" id="L39">        return items;</span>
+
+    }
+
+    public Product[] findAll() {
+<span class="fc" id="L44">        return items;</span>
+    }
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
