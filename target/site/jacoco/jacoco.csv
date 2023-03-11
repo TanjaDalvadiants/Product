@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+javaqamvn,ru.netology.javaqa,ProductRepository,0,89,0,6,0,18,0,8,0,5
+javaqamvn,ru.netology.javaqa,Smartphone,17,0,0,0,6,0,3,0,3,0
+javaqamvn,ru.netology.javaqa,ProductManager,0,80,0,8,0,17,0,8,0,4
+javaqamvn,ru.netology.javaqa,Book,17,0,0,0,6,0,3,0,3,0
+javaqamvn,ru.netology.javaqa,Main,7,0,0,0,3,0,2,0,2,0
+javaqamvn,ru.netology.javaqa,Product,15,18,0,0,7,7,4,3,4,3
