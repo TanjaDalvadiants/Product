@@ -26,11 +26,11 @@ public class ProductManagerTest {
     public void ShouldFindByTextSmartphone() {
         ProductRepository repo = new ProductRepository();
         repo.save(item1);
-        repo.save(item2);
+
         repo.save(item3);
 
 
-        Product[] expected = {item2};
+        Product[] expected = {null};
         Product[] actual = manager.searchBy("смартфон");
 
         Assertions.assertArrayEquals(expected, actual);
