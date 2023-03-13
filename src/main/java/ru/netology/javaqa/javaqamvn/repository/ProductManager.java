@@ -20,6 +20,7 @@ public class ProductManager {
 
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
+        int x = 0;
         for (Product product : repo.findAll()) {
             if (matches(product, text)) {
                 // "добавляем в конец" массива result продукт product
@@ -33,17 +34,19 @@ public class ProductManager {
             }
         }
         return result;
-    }
+
+
+}
 
     // метод определения соответствия товара product запросу search
     public boolean matches(Product product, String search) {
         if (product.getName().contains(search)) {
             return true;
         } else {
-            return false;
+            //return false;
         }
         // или в одну строку:
-        // return product.getName().contains(search);
+         return product.getName().contains(search);
 
     }
 }
