@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import domain.Product;
+import ru.netology.javaqa.javaqamvn.repository.NotFoundException;
 import ru.netology.javaqa.javaqamvn.repository.ProductRepository;
 
 
@@ -35,6 +36,19 @@ public class ProductRepositoryTest {
         Product[] actual = repo.getItems();
         Assertions.assertArrayEquals(expected, actual);
 
+
+    }
+    @Test
+    public void ShouldRemoveByIdNotFoundException() {
+        ProductRepository repo = new ProductRepository();
+        repo.save(item1);
+        repo.save(item2);
+        repo.save(item3);
+
+
+        Assertions.assertThrows(NotFoundException.class, () -> {
+            repo.removeById(77);
+        });
 
     }
 
